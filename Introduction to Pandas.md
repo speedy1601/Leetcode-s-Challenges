@@ -1,0 +1,19 @@
+15 `Easy` Pandas Questions from [Leetcode's Introduction to Pandas](https://leetcode.com/studyplan/introduction-to-pandas/).
+
+|   No  |   Question  |  Solution   | Methods Used |
+| :---- | :-----------| :---------- | :------------|
+|   1   | [Create a Dataframe from List](https://leetcode.com/problems/create-a-dataframe-from-list/description/) | [Solution](https://leetcode.com/problems/create-a-dataframe-from-list/solutions/5766876/easy-solution) | `DataFrame()` |
+|   2   | [Get the Size of a Dataframe](https://leetcode.com/problems/get-the-size-of-a-dataframe/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata) | [Solution](https://leetcode.com/problems/get-the-size-of-a-dataframe/solutions/5767000/easy-solution) | `DataFrame.shape` |
+|   3   | [Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/description/) | [Solution](https://leetcode.com/problems/display-the-first-three-rows/solutions/5767052/2-solutions) | `head(), iloc[]` |
+|   4   | [Select Data](https://leetcode.com/problems/select-data/description/) | [Solution](https://leetcode.com/problems/select-data/solutions/5767120/3-solutions) | `query(), loc[], iloc[]` |
+|   5   | [Create a New Column](https://leetcode.com/problems/create-a-new-column/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata) | [Solution](https://leetcode.com/problems/create-a-new-column/solutions/5767186/2-solutions) | `df[new_column_name] = ..., assign()` |
+|   6   | [Drop Duplicate Rows](https://leetcode.com/problems/drop-duplicate-rows/description/) | [Solution](https://leetcode.com/problems/drop-duplicate-rows/solutions/5780531/with-explanation) | `drop_duplicates()` |
+|   7   | [Drop Duplicate Rows](https://leetcode.com/problems/drop-missing-data/description/) | [Solution](https://leetcode.com/problems/drop-missing-data/solutions/5780638/2-solutions-with-explanation) | `dropna(), notna(), loc[mask]` |
+|   8   | [Modify Columns](https://leetcode.com/problems/modify-columns/description/) | [Solution](https://leetcode.com/problems/modify-columns/solutions/5780748/2-solutions) | `assign()` |
+|   9   | [rename-columns](https://leetcode.com/problems/rename-columns/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata) | [Solution](https://leetcode.com/problems/rename-columns/solutions/5780784/rename-columns-dict) | `rename()` |
+|   10   | ['Change Data Type](https://leetcode.com/problems/change-data-type/description/) | [Solution](https://leetcode.com/problems/change-data-type/solutions/5780830/2-solutions) | `astype(), assign()` |
+|   11   | [Fill Missing Data](https://leetcode.com/problems/fill-missing-data/description/) | [Solution](https://leetcode.com/problems/fill-missing-data/solutions/5780858/2-solutions) | `fillna(), assign()` |
+|   12   | [Reshape Data Concatenate](https://leetcode.com/problems/reshape-data-concatenate/description/) | [Solution](https://leetcode.com/problems/reshape-data-concatenate/solutions/5780983/pd-cocat-axis-0) | `concat()` |
+|   13   | [Reshape Data Pivot](https://leetcode.com/problems/reshape-data-pivot/description/) | [Solution](https://leetcode.com/problems/reshape-data-pivot/solutions/5782305/df-pivot) | `pivot()` |
+|   14   | [Reshape Data Melt](https://leetcode.com/problems/reshape-data-melt/description/) | [Solution](https://leetcode.com/problems/reshape-data-melt/solutions/5782366/melt) | `melt()` |
+|   15   | [Method Chaining](https://leetcode.com/problems/method-chaining/description/) | [Solution](https://leetcode.com/problems/method-chaining/solutions/5782510/method-chaining) | `loc[mask, columns], sort_values()` |
