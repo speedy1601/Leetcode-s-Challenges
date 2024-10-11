@@ -7,7 +7,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   2   | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/description/) | [Solution](https://leetcode.com/problems/find-customer-referee/solutions/5898178/pandas-polars-and-postgresql) | | | `ISNULL, COALESCE` |
 |   3   | [Big Countries](https://leetcode.com/problems/big-countries/) | [Solution](https://leetcode.com/problems/big-countries/solutions/5898265/pandas-polars-postgresql) | | | |
 |   4   | [Article Views I](https://leetcode.com/problems/article-views-i/description/) | [Solution](https://leetcode.com/problems/article-views-i/solutions/5898437/pandas-polars-postgresql) | `drop_duplicates(), sort_values(), rename()` | `unique(), sort(), rename()` | `DISTINCT, ORDER BY` |
-|   5   | []() | []() | | | |
+|   5   | [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/invalid-tweets/solutions/5898689/pandas-polars-postgresql) | `str.len()` | `str.len_chars()`| `LENGTH()` |
 |   6   | []() | []() | | | |
 |   7   | []() | []() | | | |
 |   8   | []() | []() | | | |
