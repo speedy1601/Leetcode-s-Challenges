@@ -4,7 +4,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   No  |   Question  |  Solution   | Methods Used (pandas) | Methods Used (polars) | Methods Used (postgreSQL, except SELECT and FROM) |
 | :---- | :-----------| :---------- | :---------------------| :---------------------| :-------------------------------------------------|
 |   1   | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/recyclable-and-low-fat-products/solutions/5896967/pandas-polars-and-postgresql) | `loc[]` | `filter(), select()` | `WHERE`|
-|   2   | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/description/) | [Solution](https://leetcode.com/problems/find-customer-referee/solutions/5898178/pandas-polars-and-postgresql) | `loc[]`| `filter(), select()` | `ISNULL, COALESCE` |
+|   2   | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/description/) | [Solution](https://leetcode.com/problems/find-customer-referee/solutions/5898178/pandas-polars-and-postgresql) | | | `ISNULL, COALESCE` |
 |   3   | []() | []() | | | |
 |   4   | []() | []() | | | |
 |   5   | []() | []() | | | |
