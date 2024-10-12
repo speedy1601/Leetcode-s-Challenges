@@ -8,7 +8,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   3   | [Big Countries](https://leetcode.com/problems/big-countries/) | [Solution](https://leetcode.com/problems/big-countries/solutions/5898265/pandas-polars-postgresql) | | | |
 |   4   | [Article Views I](https://leetcode.com/problems/article-views-i/description/) | [Solution](https://leetcode.com/problems/article-views-i/solutions/5898437/pandas-polars-postgresql) | `drop_duplicates(), sort_values(), rename()` | `unique(), sort(), rename()` | `DISTINCT, ORDER BY` |
 |   5   | [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/invalid-tweets/solutions/5898689/pandas-polars-postgresql) | `str.len()` | `str.len_chars()`| `LENGTH()` |
-|   6   | []() | []() | | | |
+|   6   | [Replace Employee Id With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/) | [Solution](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/solutions/5903096/pandas-polars-postgresql) |`merge(how='left')`|`join(how='left')` |`LEFT JOIN` |
 |   7   | []() | []() | | | |
 |   8   | []() | []() | | | |
 |   9   | []() | []() | | | |
@@ -53,3 +53,8 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   48   | []() | []() | | | |
 |   49   | []() | []() | | | |
 |   50   | []() | []() | | | |
+
+There are some questions helped me to strong the base :
+| Question No | Description |
+| :---------- | :---------- |
+| 6 | How to keep all the `NULL VALUES` at the very `FIRST OR LAST` without sorting the other NON NULL values. |
