@@ -58,4 +58,4 @@ There are some questions helped me to strong the base :
 | Question No | Description |
 | :---------- | :---------- |
 | 6 | How to keep all the `NULL VALUES` at the very `FIRST OR LAST` without sorting the other NON NULL values. |
-| 9 | How to INNER `JOIN` based ON `ASSUMED columns` but behind the scene the original table's values remain as they are. |
+| 9 | How to INNER `JOIN` based ON `ASSUMED columns` but behind the scene the original table's values remain as they are. Also `ITS VERY IMPORTANT TIME related Q` |
