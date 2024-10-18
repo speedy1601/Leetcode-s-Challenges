@@ -12,7 +12,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   7   | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/product-sales-analysis-i/solutions/5903591/pandas-polars-postgresql) |`merge(how='inner'), drop(columns), iloc[]` |`join(how='inner'), drop(columns), pl.col('*').exclude()` | `INNER JOIN, subquery` |
 |   8   | [Customer Who Visited But Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/) | [Solution](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/solutions/5907523/pandas-polars-postgresql) |`isin(), groupby(), reset_index()` | `is_in(), group_by()` | `group by, count(*)`|
 |   9   | [Rising Temperature](https://leetcode.com/problems/rising-temperature/description/) | [Solution](https://leetcode.com/problems/rising-temperature/solutions/5909035/pandas-polars-postgresql) | `sort_values(), diff()`| `sort(), diff()` | `INTERVAL (timeseries data)`|
-|   10  | []() | []() | | | |
+|   10  | [Average Time Of Process Per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/description/) | [Solution](https://leetcode.com/problems/average-time-of-process-per-machine/solutions/5925007/pandas-polars-postgresql) | `round(), sub()` | `round(), sub()` | `ROUND(), INNER JOIN on 4 conditions` |
 |   11   | []() | []() | | | |
 |   12   | []() | []() | | | |
 |   13   | []() | []() | | | |
@@ -59,3 +59,4 @@ There are some questions helped me to strong the base :
 | :---------- | :---------- |
 | 6 | How to keep all the `NULL VALUES` at the very `FIRST OR LAST` without sorting the other NON NULL values. |
 | 9 | How to INNER `JOIN` based ON `ASSUMED columns` but behind the scene the original table's values remain as they are. Also `ITS VERY IMPORTANT TIME related Q` |
+| 10| How do INNER `JOIN` actually works and we can do `split a dataframe into two and INNER JOIN them` with A SINGLE INNER JOIN on that dataframe |
