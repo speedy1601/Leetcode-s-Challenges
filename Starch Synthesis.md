@@ -47,7 +47,7 @@ Amylopectin : Branched. Has branches and these branches/chains are created OFF T
               links"" are made by an enzyme(branching enzyme) in chloroplasts, which is similar to the 
               enzyme_that_makes_branches_in_glycogen(glycogen-branching enzyme).
 
-During ADP-glucose synthesis('ADP-glucose = glucose 1-phosphate + ATP'), an organic molecule called 'Ppi' is produced.
+During ADP-glucose synthesis("ADP-glucose = glucose 1-phosphate + ATP"), an organic molecule called 'Ppi' is produced.
 But then where is this Ppi here in the 'ADP-glucose = glucose 1-phosphate + ATP' equation? You dont see it? Because we
 dont need it, we need only Glucose and hence this 'Ppi' obviously need to be BROKEN DOWN! Remember 
 'Inorganic Pyrophosphatase'? Yeah he breaks down this Ppi using water(hydrolysis).
