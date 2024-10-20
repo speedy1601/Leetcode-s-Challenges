@@ -15,7 +15,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   10  | [Average Time Of Process Per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/description/) | [Solution](https://leetcode.com/problems/average-time-of-process-per-machine/solutions/5925007/pandas-polars-postgresql) | `round(), sub()` | `round(), sub()` | `ROUND(), INNER JOIN on 4 conditions` |
 |   11  | [Employee Bonus](https://leetcode.com/problems/employee-bonus/description/) | [Solution](https://leetcode.com/problems/employee-bonus/solutions/5932212/pandas-polars-postgresql) | | | |
 |   12  | [Students And Examinations](https://leetcode.com/problems/students-and-examinations/description/) | [Solution](https://leetcode.com/problems/students-and-examinations/solutions/5938990/pandas-polars-postgresql) | `merge(how='cross')` | `join(how='cross')` | `CROSS JOIN, COUNT(a column)` |
-|   13   | []() | []() | | | |
+|   13  | [Managers With At Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/) | [Solution](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/solutions/5942105/pandas-polars-postgresql) | `.agg()` | `.agg()` | `HAVING` |
 |   14   | []() | []() | | | |
 |   15   | []() | []() | | | |
 |   16   | []() | []() | | | |
@@ -61,3 +61,4 @@ There are some questions helped me to strong the base :
 | 9 | How to INNER `JOIN` based ON `ASSUMED columns` but behind the scene the original table's values remain as they are. Also `ITS VERY IMPORTANT TIME related Q` |
 | 10| How do INNER `JOIN` actually works and we can do `split a dataframe into two and INNER JOIN them` with A SINGLE INNER JOIN on that dataframe |
 | 12| How `group by` handles `NULL` values while grouping in Pandas, Polars, PostgreSQL |
+| 13| In `PANDAS, POSTGRESQL` you can perform `AGGREGATE FUNCTIONS` on the `GROUPING KEYS` but in `POLARS` you can't |
