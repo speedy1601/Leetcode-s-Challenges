@@ -60,3 +60,4 @@ There are some questions helped me to strong the base :
 | 6 | How to keep all the `NULL VALUES` at the very `FIRST OR LAST` without sorting the other NON NULL values. |
 | 9 | How to INNER `JOIN` based ON `ASSUMED columns` but behind the scene the original table's values remain as they are. Also `ITS VERY IMPORTANT TIME related Q` |
 | 10| How do INNER `JOIN` actually works and we can do `split a dataframe into two and INNER JOIN them` with A SINGLE INNER JOIN on that dataframe |
+| 12| How `group by` handles `NULL` values while grouping in Pandas, Polars, PostgreSQL |
