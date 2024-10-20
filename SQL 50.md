@@ -14,7 +14,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   9   | [Rising Temperature](https://leetcode.com/problems/rising-temperature/description/) | [Solution](https://leetcode.com/problems/rising-temperature/solutions/5909035/pandas-polars-postgresql) | `sort_values(), diff()`| `sort(), diff()` | `INTERVAL (timeseries data)`|
 |   10  | [Average Time Of Process Per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/description/) | [Solution](https://leetcode.com/problems/average-time-of-process-per-machine/solutions/5925007/pandas-polars-postgresql) | `round(), sub()` | `round(), sub()` | `ROUND(), INNER JOIN on 4 conditions` |
 |   11  | [Employee Bonus](https://leetcode.com/problems/employee-bonus/description/) | [Solution](https://leetcode.com/problems/employee-bonus/solutions/5932212/pandas-polars-postgresql) | | | |
-|   12   | []() | []() | | | |
+|   12  | [Students And Examinations](https://leetcode.com/problems/students-and-examinations/description/) | [Solution](https://leetcode.com/problems/students-and-examinations/solutions/5938990/pandas-polars-postgresql) | `merge(how='cross')` | `join(how='cross')` | `CROSS JOIN` |
 |   13   | []() | []() | | | |
 |   14   | []() | []() | | | |
 |   15   | []() | []() | | | |
