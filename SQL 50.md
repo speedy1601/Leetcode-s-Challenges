@@ -16,7 +16,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   11  | [Employee Bonus](https://leetcode.com/problems/employee-bonus/description/) | [Solution](https://leetcode.com/problems/employee-bonus/solutions/5932212/pandas-polars-postgresql) | | | |
 |   12  | [Students And Examinations](https://leetcode.com/problems/students-and-examinations/description/) | [Solution](https://leetcode.com/problems/students-and-examinations/solutions/5938990/pandas-polars-postgresql) | `merge(how='cross')` | `join(how='cross')` | `CROSS JOIN, COUNT(a column)` |
 |   13  | [Managers With At Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/) | [Solution](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/solutions/5942105/pandas-polars-postgresql) | `.agg()` | `.agg()` | `HAVING` |
-|   14   | []() | []() | | | |
+|   14  | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/) | [Solution](https://leetcode.com/problems/confirmation-rate/solutions/5946527/pandas-polars-postgresql) | | | |
 |   15   | []() | []() | | | |
 |   16   | []() | []() | | | |
 |   17   | []() | []() | | | |
@@ -62,3 +62,4 @@ There are some questions helped me to strong the base :
 | 10| How do INNER `JOIN` actually works and we can do `split a dataframe into two and INNER JOIN them` with A SINGLE INNER JOIN on that dataframe |
 | 12| How `group by` handles `NULL` values while grouping in Pandas, Polars, PostgreSQL |
 | 13| In `PANDAS, POSTGRESQL` you can perform `AGGREGATE FUNCTIONS` on the `GROUPING KEYS` but in `POLARS` you can't |
+| 14| Instead of `(df['active'] == 'Yes').sum() / df['active'].size()` just do `(df['active'] == 'Yes').mean()` |
