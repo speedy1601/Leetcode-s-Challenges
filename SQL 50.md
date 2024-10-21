@@ -17,7 +17,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   12  | [Students And Examinations](https://leetcode.com/problems/students-and-examinations/description/) | [Solution](https://leetcode.com/problems/students-and-examinations/solutions/5938990/pandas-polars-postgresql) | `merge(how='cross')` | `join(how='cross')` | `CROSS JOIN, COUNT(a column)` |
 |   13  | [Managers With At Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/) | [Solution](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/solutions/5942105/pandas-polars-postgresql) | `.agg()` | `.agg()` | `HAVING` |
 |   14  | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/) | [Solution](https://leetcode.com/problems/confirmation-rate/solutions/5946527/pandas-polars-postgresql) | | | |
-|   15   | []() | []() | | | |
+|   15  | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/) | [Solution](https://leetcode.com/problems/not-boring-movies/solutions/5949203/pandas-polars-postgresql) | | | |
 |   16   | []() | []() | | | |
 |   17   | []() | []() | | | |
 |   18   | []() | []() | | | |
