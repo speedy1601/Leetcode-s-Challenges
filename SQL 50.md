@@ -18,7 +18,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   13  | [Managers With At Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/) | [Solution](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/solutions/5942105/pandas-polars-postgresql) | `.agg()` | `.agg()` | `HAVING` |
 |   14  | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/) | [Solution](https://leetcode.com/problems/confirmation-rate/solutions/5946527/pandas-polars-postgresql) | | | |
 |   15  | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/) | [Solution](https://leetcode.com/problems/not-boring-movies/solutions/5949203/pandas-polars-postgresql) | | | |
-|   16   | []() | []() | | | |
+|   16  | [Average Selling Price](https://leetcode.com/problems/average-selling-price/description/) | [Solution](https://leetcode.com/problems/average-selling-price/solutions/5953506/pandas-polars-postgresql) | | | |
 |   17   | []() | []() | | | |
 |   18   | []() | []() | | | |
 |   19   | []() | []() | | | |
@@ -63,3 +63,4 @@ There are some questions helped me to strong the base :
 | 12| How `group by` handles `NULL` values while grouping in Pandas, Polars, PostgreSQL |
 | 13| In `PANDAS, POSTGRESQL` you can perform `AGGREGATE FUNCTIONS` on the `GROUPING KEYS` but in `POLARS` you can't |
 | 14| Instead of `(df['active'] == 'Yes').sum() / df['active'].size()` just do `(df['active'] == 'Yes').mean()` |
+| 16| If your information has inside 2 tables, JOIN them anyhow, even by their primary key, even if you don't get your desired mixed table because you can filter that mixed table and then get your desired table| 
