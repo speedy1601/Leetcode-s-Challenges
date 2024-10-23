@@ -20,7 +20,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   15  | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/) | [Solution](https://leetcode.com/problems/not-boring-movies/solutions/5949203/pandas-polars-postgresql) | | | |
 |   16  | [Average Selling Price](https://leetcode.com/problems/average-selling-price/description/) | [Solution](https://leetcode.com/problems/average-selling-price/solutions/5953506/pandas-polars-postgresql) | | | |
 |   17  | [Project Employees I](https://leetcode.com/problems/project-employees-i/description/) | [Solution](https://leetcode.com/problems/project-employees-i/solutions/5954215/pandas-polars-postgresql) | | | |
-|   18   | []() | []() | | | |
+|   18  | [Percentage Of Users Attended A Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/) | [Solution](https://leetcode.com/problems/percentage-of-users-attended-a-contest/solutions/5957003/pandas-polars-postgresql) | | | |
 |   19   | []() | []() | | | |
 |   20   | []() | []() | | | |
 |   21   | []() | []() | | | |
