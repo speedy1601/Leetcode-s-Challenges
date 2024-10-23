@@ -21,7 +21,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   16  | [Average Selling Price](https://leetcode.com/problems/average-selling-price/description/) | [Solution](https://leetcode.com/problems/average-selling-price/solutions/5953506/pandas-polars-postgresql) | | | |
 |   17  | [Project Employees I](https://leetcode.com/problems/project-employees-i/description/) | [Solution](https://leetcode.com/problems/project-employees-i/solutions/5954215/pandas-polars-postgresql) | | | |
 |   18  | [Percentage Of Users Attended A Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/) | [Solution](https://leetcode.com/problems/percentage-of-users-attended-a-contest/solutions/5957003/pandas-polars-postgresql) | | | |
-|   19   | []() | []() | | | |
+|   19  | [Queries Quality And Percentage](https://leetcode.com/problems/queries-quality-and-percentage/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/queries-quality-and-percentage/solutions/5957170/pandas-polars-postgresql) | | | |
 |   20   | []() | []() | | | |
 |   21   | []() | []() | | | |
 |   22   | []() | []() | | | |
@@ -63,4 +63,5 @@ There are some questions helped me to strong the base :
 | 12| How `group by` handles `NULL` values while grouping in Pandas, Polars, PostgreSQL |
 | 13| In `PANDAS, POSTGRESQL` you can perform `AGGREGATE FUNCTIONS` on the `GROUPING KEYS` but in `POLARS` you can't |
 | 14| Instead of `(df['active'] == 'Yes').sum() / df['active'].size()` just do `(df['active'] == 'Yes').mean()` |
-| 16| If your information has inside 2 tables, JOIN them anyhow, even by their primary key, even if you don't get your desired mixed table because you can filter that mixed table and then get your desired table| 
+| 16| If your information has inside 2 tables, JOIN them anyhow, even by their primary key, even if you don't get your desired mixed table because you can filter that mixed table and then get your desired table|
+| 19| Sometimes in your `Pandas or Polars` code, before rounding up a Float value to CERTAIN DECIMAL NUMBERS, you might need to add `1e-10` to the FLOAT value first |
