@@ -23,7 +23,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   18  | [Percentage Of Users Attended A Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/) | [Solution](https://leetcode.com/problems/percentage-of-users-attended-a-contest/solutions/5957003/pandas-polars-postgresql) | | | |
 |   19  | [Queries Quality And Percentage](https://leetcode.com/problems/queries-quality-and-percentage/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://leetcode.com/problems/queries-quality-and-percentage/solutions/5957170/pandas-polars-postgresql) | | | |
 |   20  | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/description/) | [Solution](https://leetcode.com/problems/monthly-transactions-i/solutions/5962275/pandas-polars-postgresql) | `agg()` | | `FILTER()` |
-|   21   | []() | []() | | | |
+|   21  | [Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/description/) | [Solution](https://leetcode.com/problems/immediate-food-delivery-ii/solutions/5970239/pandas-polars-postgresql) | | | `subquery` |
 |   22   | []() | []() | | | |
 |   23   | []() | []() | | | |
 |   24   | []() | []() | | | |
