@@ -25,7 +25,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   20  | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/description/) | [Solution](https://leetcode.com/problems/monthly-transactions-i/solutions/5962275/pandas-polars-postgresql) | `agg()` | | `FILTER()` |
 |   21  | [Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/description/) | [Solution](https://leetcode.com/problems/immediate-food-delivery-ii/solutions/5970239/pandas-polars-postgresql) | | | `subquery => WHERE (...) IN (...)` |
 |   22  | [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/description/) | [Solution](https://leetcode.com/problems/game-play-analysis-iv/solutions/5996925/pandas-polars-postgresql) | `groupby() [..].transform()` | `over(partion_by)` | `OVER (PARTITION BY)` |
-|   23   | []() | []() | | | |
+|   23  | [Number Of Unique Subjects Taught By Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/) | [Solution](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/solutions/6001679/pandas-polars-postgresql) | | | |
 |   24   | []() | []() | | | |
 |   25   | []() | []() | | | |
 |   26   | []() | []() | | | |
