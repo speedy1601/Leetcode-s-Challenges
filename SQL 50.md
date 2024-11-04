@@ -29,7 +29,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   24  | [User Activity For The Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/) | [Solution](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/solutions/6003219/pandas-polars-postgresql) | `pd.Timestamp, pd.to_datetime, between` | `pl.datetime, is_between` | `BETWEEN, ::DATE` |
 |   25  | [Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/description/) | [Solution](https://leetcode.com/problems/product-sales-analysis-iii/solutions/6007319/pandas-polars-postgresql) | `filter()` | | |
 |   26  | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/) | [Solution](https://leetcode.com/problems/classes-more-than-5-students/solutions/6007625/pandas-polars-postgresql) | `groupby(.., as_index = False)` | | |
-|   27   | []() | []() | | | |
+|   27  | [Find Followers Count](https://leetcode.com/problems/find-followers-count/description/) | [Solution](https://leetcode.com/problems/find-followers-count/solutions/6007866/pandas-polars-postgresql) | | | |
 |   28   | []() | []() | | | |
 |   29   | []() | []() | | | |
 |   30   | []() | []() | | | |
