@@ -28,7 +28,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   23  | [Number Of Unique Subjects Taught By Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/) | [Solution](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/solutions/6001679/pandas-polars-postgresql) | | | |
 |   24  | [User Activity For The Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/) | [Solution](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/solutions/6003219/pandas-polars-postgresql) | `pd.Timestamp, pd.to_datetime, between` | `pl.datetime, is_between` | `BETWEEN, ::DATE` |
 |   25  | [Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/description/) | [Solution](https://leetcode.com/problems/product-sales-analysis-iii/solutions/6007319/pandas-polars-postgresql) | `filter()` | | |
-|   26   | []() | []() | | | |
+|   26  | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/) | [Solution](https://leetcode.com/problems/classes-more-than-5-students/solutions/6007625/pandas-polars-postgresql) | `groupby(.., as_index = False)` | | |
 |   27   | []() | []() | | | |
 |   28   | []() | []() | | | |
 |   29   | []() | []() | | | |
@@ -67,3 +67,4 @@ There are some questions helped me to strong the base :
 | 19| Sometimes in your `Pandas or Polars` code, before rounding up a Float value to CERTAIN DECIMAL NUMBERS, you might need to add `1e-10` to the FLOAT value first |
 | 20| In `Pandas` if your solution needs only aggregrate functions like `count(), sum()`, use `agg()` even if you've to create some more columns, don't use `apply()` in this case. In `PostgreSQL` `GROUP BY` clause can access the `alias` created in `SELECT` as like `NEW COLUMN OF THAT TABLE` and can perform GROUP BY on that alias |
 | 22| `THINK SIMPLY`. JUST CREATING A NEW COLUMN can save your time, optimize efficiency and just more creative. (`IMPORTANT TRICKY QUESTION`). And in `POSTGRESQL` you can't perform `NESTED AGGREGATE FUNCTION` during `GROUP BY operation` and also you can't do `player_id = MIN(player_id)` without using `player_id in group by` |
+| 26 | In `PANDAS`, `groupby(by=.., as_index=False) .agg(..)` returns A DataFrame. So no need to do `reset_index` anymore unless necessery |
