@@ -30,7 +30,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   25  | [Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/description/) | [Solution](https://leetcode.com/problems/product-sales-analysis-iii/solutions/6007319/pandas-polars-postgresql) | `filter()` | | |
 |   26  | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/) | [Solution](https://leetcode.com/problems/classes-more-than-5-students/solutions/6007625/pandas-polars-postgresql) | `groupby(.., as_index = False)` | | |
 |   27  | [Find Followers Count](https://leetcode.com/problems/find-followers-count/description/) | [Solution](https://leetcode.com/problems/find-followers-count/solutions/6007866/pandas-polars-postgresql) | | | |
-|   28   | []() | []() | | | |
+|   28  | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/description/) | [Solution](https://leetcode.com/problems/biggest-single-number/solutions/6011883/pandas-polars-postgresql) | `drop_duplicates(keep=False), to_frame()` | `unique(keep='none')` | |
 |   29   | []() | []() | | | |
 |   30   | []() | []() | | | |
 |   31   | []() | []() | | | |
@@ -68,3 +68,4 @@ There are some questions helped me to strong the base :
 | 20| In `Pandas` if your solution needs only aggregrate functions like `count(), sum()`, use `agg()` even if you've to create some more columns, don't use `apply()` in this case. In `PostgreSQL` `GROUP BY` clause can access the `alias` created in `SELECT` as like `NEW COLUMN OF THAT TABLE` and can perform GROUP BY on that alias |
 | 22| `THINK SIMPLY`. JUST CREATING A NEW COLUMN can save your time, optimize efficiency and just more creative. (`IMPORTANT TRICKY QUESTION`). And in `POSTGRESQL` you can't perform `NESTED AGGREGATE FUNCTION` during `GROUP BY operation` and also you can't do `player_id = MIN(player_id)` without using `player_id in group by` |
 | 26 | In `PANDAS`, `groupby(by=.., as_index=False) .agg(..)` returns A DataFrame. So no need to do `reset_index` anymore unless necessery |
+| 28 | How to `DELETE ROWS HAVING DUPLICATE ROWS i.e. keep only the PURE SINGLE ROWS`. In `PANDAS` you can use `agg()` without `group_by` |
