@@ -31,7 +31,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   26  | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/) | [Solution](https://leetcode.com/problems/classes-more-than-5-students/solutions/6007625/pandas-polars-postgresql) | `groupby(.., as_index = False)` | | |
 |   27  | [Find Followers Count](https://leetcode.com/problems/find-followers-count/description/) | [Solution](https://leetcode.com/problems/find-followers-count/solutions/6007866/pandas-polars-postgresql) | | | |
 |   28  | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/description/) | [Solution](https://leetcode.com/problems/biggest-single-number/solutions/6011883/pandas-polars-postgresql) | `drop_duplicates(keep=False), to_frame()` | `unique(keep='none')` | |
-|   29   | []() | []() | | | |
+|   29  | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/description/) | [Solution](https://leetcode.com/problems/customers-who-bought-all-products/solutions/6014745/pandas-polars-postgresql) | | | |
 |   30   | []() | []() | | | |
 |   31   | []() | []() | | | |
 |   32   | []() | []() | | | |
@@ -69,3 +69,4 @@ There are some questions helped me to strong the base :
 | 22| `THINK SIMPLY`. JUST CREATING A NEW COLUMN can save your time, optimize efficiency and just more creative. (`IMPORTANT TRICKY QUESTION`). And in `POSTGRESQL` you can't perform `NESTED AGGREGATE FUNCTION` during `GROUP BY operation` and also you can't do `player_id = MIN(player_id)` without using `player_id in group by` |
 | 26 | In `PANDAS`, `groupby(by=.., as_index=False) .agg(..)` returns A DataFrame. So no need to do `reset_index` anymore unless necessery |
 | 28 | How to `DELETE ROWS HAVING DUPLICATE ROWS i.e. keep only the PURE SINGLE ROWS`. In `PANDAS` you can use `agg()` without `group_by` |
+| 29 | Just a simple `REMINDER` that in `PANDAS, POLARS` if we filter the table after `GROUP BY(of course along with agg())`, means in `POSTGRESQL` we have to apply `HAVING` after `GROUP BY` because we filter on `GROUP BY` result with `HAVING` CLAUSE in POSTGRESQL |
