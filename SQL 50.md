@@ -33,7 +33,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   28  | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/description/) | [Solution](https://leetcode.com/problems/biggest-single-number/solutions/6011883/pandas-polars-postgresql) | `drop_duplicates(keep=False), to_frame()` | `unique(keep='none')` | |
 |   29  | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/description/) | [Solution](https://leetcode.com/problems/customers-who-bought-all-products/solutions/6014745/pandas-polars-postgresql) | `query("   @product.size)` | | |
 |   30  | [The Number Of Employees Which Report To Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/) | [Solution](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/solutions/6016974/pandas-polars-postgresql) | `first()` | `first(), get()` | `ARRAY_AGG()` |
-|   31   | []() | []() | | | |
+|   31  | [Primary Department For Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/description/) | [Solution](https://leetcode.com/problems/primary-department-for-each-employee/solutions/6020047/pandas-polars-postgresql) | | | |
 |   32   | []() | []() | | | |
 |   33   | []() | []() | | | |
 |   34   | []() | []() | | | |
@@ -71,3 +71,4 @@ There are some questions helped me to strong the base :
 | 28 | How to `DELETE ROWS HAVING DUPLICATE ROWS i.e. keep only the PURE SINGLE ROWS`. In `PANDAS` you can use `agg()` without `group_by` |
 | 29 | In `PANDAS` you can use `df['a'].min()` `FUNCTIONS` like this inside `query()` using `@`. Just a simple `REMINDER` that in `PANDAS, POLARS` if we filter the table after `GROUP BY(of course along with agg())`, means in `POSTGRESQL` we have to apply `HAVING` after `GROUP BY` because we filter on `GROUP BY` result with `HAVING` CLAUSE in POSTGRESQL.|
 | 30 | In especially `POSTGRESQL` the FIRST VALUE of a column having the SAME VALUE, can be found using `MIN()` as they are all same values! Also with `(ARRAY_AGG(column_name)) [1]`. `round()` in `PANDAS` returns `8 for 8.5 but we need 9`, add `0.1 with 8.5 = 8.6 and round(8.6) = 9` AND for `8.4 = round(8.4 + 0.1) = 8 still as it should be`, so no need `np.ceil()` as `Pandas don't have ceil()` |
+| 31 | Just like Question No `22`. `THINK SIMPLY. Think the COMPARISONS BETWEEN COLUMNS` AS `FORMULA` and if you need to CREATE A NEW COLUMN for that formula, then DO IT |
