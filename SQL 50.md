@@ -35,7 +35,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   30  | [The Number Of Employees Which Report To Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/) | [Solution](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/solutions/6016974/pandas-polars-postgresql) | `first(), assign(new_column = lambda df: ..)` | `first(), get()` | `ARRAY_AGG()` |
 |   31  | [Primary Department For Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/description/) | [Solution](https://leetcode.com/problems/primary-department-for-each-employee/solutions/6020047/pandas-polars-postgresql) | | | |
 |   32  | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/) | [Solution](https://leetcode.com/problems/triangle-judgement/solutions/6022720/pandas-polars-postgresql) | `eval()` | `sql_expr()` | |
-|   33   | []() | []() | | | |
+|   33  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/description/) | [Solution](https://leetcode.com/problems/consecutive-numbers/solutions/6040029/pandas-polars-postgresql) | `diff(2), rolling().var()` | `diff(2), rolling_var()` | `LAG(), ROWS BETWEEN .. Preceding AND Current Row` |
 |   34   | []() | []() | | | |
 |   35   | []() | []() | | | |
 |   36   | []() | []() | | | |
@@ -73,3 +73,4 @@ There are some questions helped me to strong the base :
 | 30 | In especially `POSTGRESQL` the FIRST VALUE of a column having the SAME VALUE, can be found using `MIN()` as they are all same values! Also with `(ARRAY_AGG(column_name)) [1]`. `round()` in `PANDAS` returns `8 for 8.5 but we need 9`, add `0.1 with 8.5 = 8.6 and round(8.6) = 9` AND for `8.4 = round(8.4 + 0.1) = 8 still as it should be`, so no need `np.ceil()` as `Pandas don't have ceil()`. Also a new way to use `assign()` in `Pandas` |
 | 31 | Just like Question No `22`. `THINK SIMPLY. Think the COMPARISONS BETWEEN COLUMNS` AS `FORMULA` and if you need to CREATE A NEW COLUMN for that formula, then DO IT |
 | 32 | Learn to use `eval() in PANDAS` and `sql_expr() in POLARS` to EVALUATE LARGE EXPRESSIONS/COMPARISONS easily |
+| 33 | `VERY IMPORTANT` to learn OVER(PARTITION BY ORDER BY), equivalent `rolling()`, equivalent `diff(periods=2)` in `PostgreSQL`. Learn how to use `CUSTOM AGGREGATE FUNCTION` in `agg()`, access `temporary dataframe produced in the mid way` in `loc[]` in `Pandas` |
