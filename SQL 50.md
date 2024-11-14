@@ -36,7 +36,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   31  | [Primary Department For Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/description/) | [Solution](https://leetcode.com/problems/primary-department-for-each-employee/solutions/6020047/pandas-polars-postgresql) | | | |
 |   32  | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/) | [Solution](https://leetcode.com/problems/triangle-judgement/solutions/6022720/pandas-polars-postgresql) | `eval()` | `sql_expr()` | |
 |   33  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/description/) | [Solution](https://leetcode.com/problems/consecutive-numbers/solutions/6040029/pandas-polars-postgresql) | `diff(2), rolling().var()` | `diff(2), rolling_var()` | `LAG(), ROWS BETWEEN .. Preceding AND Current Row` |
-|   34   | []() | []() | | | |
+|   34  | [Product Price At A Given Date](https://leetcode.com/problems/product-price-at-a-given-date/description/) | [Solution](https://leetcode.com/problems/product-price-at-a-given-date/solutions/6045451/pandas-polars-postgresql) | `nlargest()` | `pl.when().then().otherwise()` | `DISTINCT ON` |
 |   35   | []() | []() | | | |
 |   36   | []() | []() | | | |
 |   37   | []() | []() | | | |
@@ -74,3 +74,4 @@ There are some questions helped me to strong the base :
 | 31 | Just like Question No `22`. `THINK SIMPLY. Think the COMPARISONS BETWEEN COLUMNS` AS `FORMULA` and if you need to CREATE A NEW COLUMN for that formula, then DO IT |
 | 32 | Learn to use `eval() in PANDAS` and `sql_expr() in POLARS` to EVALUATE LARGE EXPRESSIONS/COMPARISONS easily |
 | 33 | `VERY IMPORTANT` to learn OVER(PARTITION BY ORDER BY), equivalent `rolling()`, equivalent `diff(periods=2)` in `PostgreSQL`. Learn how to use `CUSTOM AGGREGATE FUNCTION` in `agg()`, access `temporary dataframe produced in the mid way` in `loc[]` in `Pandas` |
+| 34 | In `PostgreSQL` how to select the `FIRST VALUE` for each grouping value of a column |
