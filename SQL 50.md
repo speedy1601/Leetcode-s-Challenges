@@ -74,4 +74,4 @@ There are some questions helped me to strong the base :
 | 31 | Just like Question No `22`. `THINK SIMPLY. Think the COMPARISONS BETWEEN COLUMNS` AS `FORMULA` and if you need to CREATE A NEW COLUMN for that formula, then DO IT |
 | 32 | Learn to use `eval() in PANDAS` and `sql_expr() in POLARS` to EVALUATE LARGE EXPRESSIONS/COMPARISONS easily |
 | 33 | `VERY IMPORTANT` to learn what is `WINDOW FUNCTION`, thus how `OVER()` works, equivalent of `rolling()` and `diff(periods=2)` in `PostgreSQL`. Learn how to use `CUSTOM AGGREGATE FUNCTION` in `agg()`, access `temporary dataframe produced in the mid way` in `loc[]` in `Pandas` |
-| 34 | In `PostgreSQL` how to select the `FIRST VALUE` for each grouping value of a column. Always Filter the data OR mark those uncessery data as NULL or any default value to work further smoothly|
+| 34 | In `PostgreSQL` how to select the `FIRST VALUE` for each `group of values` of a column using `DISTINCT ON(), FIRST_VALUE()`. Always Filter the data OR mark those uncessery data as NULL or any default value to work further smoothly|
