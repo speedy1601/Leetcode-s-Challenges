@@ -38,7 +38,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   33  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/description/) | [Solution](https://leetcode.com/problems/consecutive-numbers/solutions/6040029/pandas-polars-postgresql) | `diff(2), rolling().var()` | `diff(2), rolling_var()` | `LAG(), ROWS BETWEEN .. Preceding AND Current Row` |
 |   34  | [Product Price At A Given Date](https://leetcode.com/problems/product-price-at-a-given-date/description/) | [Solution](https://leetcode.com/problems/product-price-at-a-given-date/solutions/6045451/pandas-polars-postgresql) | `nlargest()` | `pl.when().then().otherwise()` | `DISTINCT ON, FIRST_VALUE()` |
 |   35  | [Last Person To Fit In The Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/) | [Solution](https://leetcode.com/problems/last-person-to-fit-in-the-bus/solutions/6048620/pandas-polars-postgresql) | `clip(), replace()` | `clip(), replace()` | `SUM() OVER(ORDER BY) => Cumulative Sum, LAST_VALUE()`|
-|   36   | []() | []() | | | |
+|   36  | [Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/) | [Solution](https://leetcode.com/problems/count-salary-categories/solutions/6052841/pandas-polars-postgresql) | `gt(), lt()` | `gt(), lt(), item(), unpivot()` | `UNNEST(), ARRAY[], STRING_TO_ARRAY()` |
 |   37   | []() | []() | | | |
 |   38   | []() | []() | | | |
 |   39   | []() | []() | | | |
@@ -76,3 +76,4 @@ There are some questions helped me to strong the base :
 | 33 | `VERY IMPORTANT` to learn what is `WINDOW FUNCTION`, thus how `OVER()` works with `PARTITION BY, ORDER BY` and no keyword, equivalent of `rolling()` and `diff(periods=2)` in `PostgreSQL`. Learn how to use `CUSTOM AGGREGATE FUNCTION` in `agg()`, access `temporary dataframe produced in the mid way` in `loc[]` in `Pandas` |
 | 34 | In `PostgreSQL` how to select the `FIRST VALUE` for each `group of values` of a column using `DISTINCT ON(), FIRST_VALUE()`. Always Filter the data OR mark those uncessery data as NULL or any default value to work further smoothly|
 | 35 | `VERY IMPORTANT` How to filter the One Row computing its `Index` (in sorted column) instead of filtering unnecessery rows by COMPARISONS. How to select the LAST VALUE for each GROUP in `Pandas` and `PostgreSQL`. In `POSTGRESQL` you can't use AGGREGATE FUNCTION in `HAVING CLAUSE` |
+| 36 | How to convert a Row into a Column in `POSTGRESQL`. How to convert a Lazyframe's ALL VALUES into a Column and All Column Names into another Column using `unpivot()` in `POLARS` |
