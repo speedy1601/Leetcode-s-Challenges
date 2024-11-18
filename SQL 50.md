@@ -39,7 +39,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   34  | [Product Price At A Given Date](https://leetcode.com/problems/product-price-at-a-given-date/description/) | [Solution](https://leetcode.com/problems/product-price-at-a-given-date/solutions/6045451/pandas-polars-postgresql) | `nlargest()` | `pl.when().then().otherwise()` | `DISTINCT ON, FIRST_VALUE()` |
 |   35  | [Last Person To Fit In The Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/) | [Solution](https://leetcode.com/problems/last-person-to-fit-in-the-bus/solutions/6048620/pandas-polars-postgresql) | `clip(), replace()` | `clip(), replace()` | `SUM() OVER(ORDER BY) => Cumulative Sum, LAST_VALUE()`|
 |   36  | [Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/) | [Solution](https://leetcode.com/problems/count-salary-categories/solutions/6052841/pandas-polars-postgresql) | `gt(), lt()` | `gt(), lt(), item(), unpivot()` | `UNNEST(), ARRAY[], STRING_TO_ARRAY()` |
-|   37   | []() | []() | | | |
+|   37  | [Employees Whose Manager Left The Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/description/) | [Solution](https://leetcode.com/problems/employees-whose-manager-left-the-company/solutions/6056326/pandas-polars-postgresql) | | `join(how='anti')` | `NOT EXISTS` |
 |   38   | []() | []() | | | |
 |   39   | []() | []() | | | |
 |   40   | []() | []() | | | |
@@ -77,3 +77,4 @@ There are some questions helped me to strong the base :
 | 34 | In `PostgreSQL` how to select the `FIRST VALUE` for each `group of values` of a column using `DISTINCT ON(), FIRST_VALUE()`. Always Filter the data OR mark those uncessery data as NULL or any default value to work further smoothly|
 | 35 | `VERY IMPORTANT` How to filter the One Row computing its `Index` (in sorted column) instead of filtering unnecessery rows by COMPARISONS. How to select the LAST VALUE for each GROUP in `Pandas` and `PostgreSQL`. In `POSTGRESQL` you can't use AGGREGATE FUNCTION in `HAVING CLAUSE` |
 | 36 | How to convert a Row into a Column in `POSTGRESQL`. How to convert a Lazyframe's ALL VALUES into a Column and All Column Names into another Column using `unpivot()` in `POLARS` |
+| 37 | Learn `ANTI JOIN` in `POLARS` using `join(how='anti')` and `POSTGRESQL` using `NOT EXISTS, LEFT JOIN`; how it works, how to know if your question can be solved using majestic `ANTI JOIN` |
