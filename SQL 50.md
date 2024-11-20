@@ -78,4 +78,4 @@ There are some questions helped me to strong the base :
 | 35 | `VERY IMPORTANT` How to filter the One Row computing its `Index` (in sorted column) instead of filtering unnecessery rows by COMPARISONS. How to select the LAST VALUE for each GROUP in `Pandas` and `PostgreSQL`. In `POSTGRESQL` you can't use AGGREGATE FUNCTION in `HAVING CLAUSE` |
 | 36 | How to convert a Row into a Column in `POSTGRESQL`. How to convert a Lazyframe's ALL VALUES into a Column and All Column Names into another Column using `unpivot()` in `POLARS` |
 | 37 | Learn `ANTI JOIN` in `POLARS` using `join(how='anti')` and `POSTGRESQL` using `NOT EXISTS, LEFT JOIN`; how it works, how to know if your question can be solved using majestic `ANTI JOIN` |
-| 38 | How to Swap Values with SORTING and learn more Efficient Logic |
+| 38 | How to Swap Values with SORTING and learn more Efficient Logic. Learn Multiple If conditions in `POSTGRQSQL` |
