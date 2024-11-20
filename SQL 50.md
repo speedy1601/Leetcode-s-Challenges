@@ -40,7 +40,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   35  | [Last Person To Fit In The Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/) | [Solution](https://leetcode.com/problems/last-person-to-fit-in-the-bus/solutions/6048620/pandas-polars-postgresql) | `clip(), replace()` | `clip(), replace()` | `SUM() OVER(ORDER BY) => Cumulative Sum, LAST_VALUE()`|
 |   36  | [Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/) | [Solution](https://leetcode.com/problems/count-salary-categories/solutions/6052841/pandas-polars-postgresql) | `gt(), lt()` | `gt(), lt(), item(), unpivot()` | `UNNEST(), ARRAY[], STRING_TO_ARRAY()` |
 |   37  | [Employees Whose Manager Left The Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/description/) | [Solution](https://leetcode.com/problems/employees-whose-manager-left-the-company/solutions/6056326/pandas-polars-postgresql) | | `join(how='anti')` | `NOT EXISTS` |
-|   38  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/description/) | [Solution](https://leetcode.com/problems/exchange-seats/solutions/6065352/pandas-polars-postgresql) | | | `ROW_NUMBER()` |
+|   38  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/description/) | [Solution](https://leetcode.com/problems/exchange-seats/solutions/6065352/pandas-polars-postgresql) | | | `ROW_NUMBER() OVER()` |
 |   39   | []() | []() | | | |
 |   40   | []() | []() | | | |
 |   41   | []() | []() | | | |
