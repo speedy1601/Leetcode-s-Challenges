@@ -43,7 +43,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   38  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/description/) | [Solution](https://leetcode.com/problems/exchange-seats/solutions/6065352/pandas-polars-postgresql) | | | `ROW_NUMBER() OVER()` |
 |   39  | [Movie Rating](https://leetcode.com/problems/movie-rating/description/) | [Solution](https://leetcode.com/problems/movie-rating/solutions/6071541/pandas-polars-postgresql) | `nlargest(... keep = 'all')` | `to_k(... reverse)` | |
 |   40  | [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/description/) | [Solution](https://leetcode.com/problems/restaurant-growth/solutions/6077570/pandas-polars-postgresql) | `divide()` | `truediv()` | `OFFSET (without using LIMIT)` |
-|   41   | []() | []() | | | |
+|   41  | [Friend Requests Ii Who Has The Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/) | [Solution](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/solutions/6079154/pandas-polars-postgresql) | `pd.concat(axis=0)` | `pl.concat(how='vertical_relaxed')` | `UNNEST(ARRAY[column1, column2])` |
 |   42   | []() | []() | | | |
 |   43   | []() | []() | | | |
 |   44   | []() | []() | | | |
@@ -81,3 +81,4 @@ There are some questions helped me to strong the base :
 | 38 | How to Swap Values with SORTING and learn more Efficient Logic. Learn Multiple If conditions in `POSTGRQSQL` |
 | 39 | `VERY IMPORTANT` to learn how `ORDER BY custom_column` in `POSTGRESQL` and when to use WINDOW FUNCTION. Learn details of `top_k(k, by, reverse)` of `POLARS`. Learn how to EXTRACT `Year-Month` from a `DateTime` Column and compare it. |
 | 40 | Nothing Important, just a little bit warning when using `assign()` in `Pandas` to overwrite an existing column. Also we can use `OFFSET` without `LIMIT` in `PostgreSQL` |
+| 41 | `VERY IMPORTANT` How to merge i.e. `concat()` 2 different columns having DIFFERENT NAMES in `PANDAS, POLARS and POSTGRESQL`. In `POSTGRESQL` what happens when we create a `NEW COLUMN inside SELECT CLAUSE`? How does it affect the original table? Can we use the NEW COLUMN(created in SELECT CLAUSE) in aggregate functions or to filter data like we do with Normal Column? |
