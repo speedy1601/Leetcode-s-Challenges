@@ -42,7 +42,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   37  | [Employees Whose Manager Left The Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/description/) | [Solution](https://leetcode.com/problems/employees-whose-manager-left-the-company/solutions/6056326/pandas-polars-postgresql) | | `join(how='anti')` | `ANTI JOIN using 'NOT EXISTS' and 'LEFT JOIN' ` |
 |   38  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/description/) | [Solution](https://leetcode.com/problems/exchange-seats/solutions/6065352/pandas-polars-postgresql) | | | `ROW_NUMBER() OVER()` |
 |   39  | [Movie Rating](https://leetcode.com/problems/movie-rating/description/) | [Solution](https://leetcode.com/problems/movie-rating/solutions/6071541/pandas-polars-postgresql) | `nlargest(... keep = 'all')` | `to_k(... reverse)` | |
-|   40   | []() | []() | | | |
+|   40  | [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/description/) | [Solution](https://leetcode.com/problems/restaurant-growth/solutions/6077570/pandas-polars-postgresql) | `divide()` | `truediv()` | `OFFSET (without using LIMIT)` |
 |   41   | []() | []() | | | |
 |   42   | []() | []() | | | |
 |   43   | []() | []() | | | |
@@ -80,3 +80,4 @@ There are some questions helped me to strong the base :
 | 37 | Learn `ANTI JOIN` in `POLARS` using `join(how='anti')` and `POSTGRESQL` using `NOT EXISTS, LEFT JOIN`; how it works, how to know if your question can be solved using majestic `ANTI JOIN` |
 | 38 | How to Swap Values with SORTING and learn more Efficient Logic. Learn Multiple If conditions in `POSTGRQSQL` |
 | 39 | `VERY IMPORTANT` to learn how `ORDER BY custom_column` in `POSTGRESQL` and when to use WINDOW FUNCTION. Learn details of `top_k(k, by, reverse)` of `POLARS`. Learn how to EXTRACT `Year-Month` from a `DateTime` Column and compare it. |
+| 40 | Nothing Important, just a little bit warning when using `assign()` in `Pandas` to overwrite an existing column. Also we can use `OFFSET` without `LIMIT` in `PostgreSQL` |
