@@ -46,7 +46,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   41  | [Friend Requests Ii Who Has The Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/) | [Solution](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/solutions/6079154/pandas-polars-postgresql) | `pd.concat(axis=0)` | `pl.concat(how='vertical_relaxed')` | `UNNEST(ARRAY[column1, column2])` |
 |   42  | []() | []() | | | |
 |   43  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/) | [Solution](https://leetcode.com/problems/department-top-three-salaries/solutions/6088128/pandas-polars-postgresql) |  | `map_batches(function, returns_scaler=True)` | `DENSE_RANK() OVER(), ARRAY_AGG(DISTINCT .. ORDER BY ..)` |
-|   44   | []() | []() | | | |
+|   44  | [Fix Names In A Table](https://leetcode.com/problems/fix-names-in-a-table/description/) | [Solution](https://leetcode.com/problems/fix-names-in-a-table/solutions/6092793/pandas-polars-postgresql) | `str.capitalize()` | `str.slice(), str.upper() and lower()` | `LEFT(), RIGHT(), \|\|`|
 |   45   | []() | []() | | | |
 |   46   | []() | []() | | | |
 |   47   | []() | []() | | | |
@@ -83,3 +83,4 @@ There are some questions helped me to strong the base :
 | 40 | Nothing Important, just a little bit warning when using `assign()` in `Pandas` to overwrite an existing column. Also we can use `OFFSET` without `LIMIT` in `PostgreSQL` |
 | 41 | `VERY IMPORTANT` How to merge i.e. `concat()` 2 different columns having DIFFERENT NAMES in `PANDAS, POLARS and POSTGRESQL`. In `POSTGRESQL` what happens when we create a `NEW COLUMN inside SELECT CLAUSE`? How does it affect the original table? Can we use the NEW COLUMN(created in SELECT CLAUSE) in aggregate functions or to filter data like we do with Normal Column? |
 | 43 | `VERY IMPORTANT` How to filter by keeping the rows having the salary in top n Salary, for each department, using `DENSE RANK` in every language AND also using `WINDOW FUNCTION` in `Pandas`, `Polars`. How to write `CUSTOM_AGGREGATE_FUNCTION(column) OVER(..)` in Pandas, Polars, especially `POSTGRESQL` using `GROUP BY and INNER JOIN`.   |
+| 44 | Nothing Important. How to implement CAPITALIZE() in `POLARS` and `POSTGRESQL` by concatenating using `+` and `\|\|` respectively |
