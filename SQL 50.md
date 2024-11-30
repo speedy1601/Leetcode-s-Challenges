@@ -52,7 +52,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   47   | []() | []() | | | |
 |   48   | []() | []() | | | |
 |   49   | []() | []() | | | |
-|   50   | []() | []() | | | |
+|   50  | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/description/) | [Solution](https://leetcode.com/problems/find-users-with-valid-e-mails/solutions/6096626/pandas-polars-postgresql) | `str.contains(), str.fullmatch()` | `str.contains()` | `SIMILAR TO, ~` |
 
 There are some questions helped me to strong the base :
 | Question No | Description |
@@ -84,4 +84,5 @@ There are some questions helped me to strong the base :
 | 41 | `VERY IMPORTANT` How to merge i.e. `concat()` 2 different columns having DIFFERENT NAMES in `PANDAS, POLARS and POSTGRESQL`. In `POSTGRESQL` what happens when we create a `NEW COLUMN inside SELECT CLAUSE`? How does it affect the original table? Can we use the NEW COLUMN(created in SELECT CLAUSE) in aggregate functions or to filter data like we do with Normal Column? |
 | 43 | `VERY IMPORTANT` How to filter by keeping the rows having the salary in top n Salary, for each department, using `DENSE RANK` in every language AND also using `WINDOW FUNCTION` in `Pandas`, `Polars`. How to write `CUSTOM_AGGREGATE_FUNCTION(column) OVER(..)` in Pandas, Polars, especially `POSTGRESQL` using `GROUP BY and INNER JOIN`.   |
 | 44 | Nothing Important. How to implement CAPITALIZE() in `POLARS` and `POSTGRESQL` by concatenating using `+` and `\|\|` respectively |
-| 45 | `VERY IMPORTANT` How `\b` works as Word Boundary in Regex. r`\bDIAB1` matches with the value `+DIAB1`, Why? And when \b should not be used even if we've to deal with `word`|
+| 45 | `VERY IMPORTANT` How `\b` works as Word Boundary in Regex. r`\bDIAB1` matches with the value `+DIAB1`, Why? And when \b should not be used even if we've to deal with `word`. The difference between `(^| )` and `[^ ]` |
+| 50 | `VERY IMPORTANT` How to `check FULL STRING using REGEX FROM THE VERY FIRST CHARACTER TO END` i.e. if the first regex condition doesn't match, return False |
