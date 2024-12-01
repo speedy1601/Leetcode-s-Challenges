@@ -86,4 +86,4 @@ There are some questions helped me to strong the base :
 | 44 | Nothing Important. How to implement CAPITALIZE() in `POLARS` and `POSTGRESQL` by concatenating using `+` and `\|\|` respectively |
 | 45 | `VERY IMPORTANT` How `\b` works as Word Boundary in Regex. r`\bDIAB1` matches with the value `+DIAB1`, Why? And when \b should not be used even if we've to deal with `word`. The difference between `(^| )` and `[^ ]` |
 | 50 | `VERY IMPORTANT` How to `check FULL STRING using REGEX FROM THE VERY FIRST CHARACTER TO END` i.e. if the first regex condition doesn't match, return False |
-| 46 | `VERY IMPORTANT` How to use `DELETE` and especially `DELETE USING` rows by MODIFYING the Main Table in place. Also another example of how Window Functions can ease our life |
+| 46 | `VERY IMPORTANT` How to use `DELETE` and especially `DELETE USING` rows by MODIFYING the Main Table in place. In `POSTGRESQL` to perform ANY kind of JOIN, we must have a COMMON TABLE EXPRESSION like p.id = q.id, then you can put ANYYY conditions |
