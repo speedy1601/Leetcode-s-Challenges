@@ -48,7 +48,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   43  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/) | [Solution](https://leetcode.com/problems/department-top-three-salaries/solutions/6088128/pandas-polars-postgresql) |  | `map_batches(function, returns_scaler=True)` | `DENSE_RANK() OVER(), ARRAY_AGG(DISTINCT .. ORDER BY ..)` |
 |   44  | [Fix Names In A Table](https://leetcode.com/problems/fix-names-in-a-table/description/) | [Solution](https://leetcode.com/problems/fix-names-in-a-table/solutions/6092793/pandas-polars-postgresql) | `str.capitalize()` | `str.slice(), str.upper() and lower()` | `LEFT(), RIGHT(), \|\|`|
 |   45  | [Patients With A Condition](https://leetcode.com/problems/patients-with-a-condition/description/) | [Solution](https://leetcode.com/problems/patients-with-a-condition/solutions/6094195/pandas-polars-postgresql) | `str.contains()` | `str.contains()` | `~` (ANY regex expression checking) |
-|   46   | []() | []() | | | |
+|   46  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/) | [Solution](https://leetcode.com/problems/delete-duplicate-emails/solutions/6101894/pandas-polars-postgresql) | | | `DELETE` |
 |   47   | []() | []() | | | |
 |   48   | []() | []() | | | |
 |   49   | []() | []() | | | |
@@ -86,3 +86,4 @@ There are some questions helped me to strong the base :
 | 44 | Nothing Important. How to implement CAPITALIZE() in `POLARS` and `POSTGRESQL` by concatenating using `+` and `\|\|` respectively |
 | 45 | `VERY IMPORTANT` How `\b` works as Word Boundary in Regex. r`\bDIAB1` matches with the value `+DIAB1`, Why? And when \b should not be used even if we've to deal with `word`. The difference between `(^| )` and `[^ ]` |
 | 50 | `VERY IMPORTANT` How to `check FULL STRING using REGEX FROM THE VERY FIRST CHARACTER TO END` i.e. if the first regex condition doesn't match, return False |
+| 46 | `VERY IMPORTANT` How to use `DELETE` and especially `DELETE USING` rows by MODIFYING the Main Table in place. Also another example of how Window Functions can ease our life |
