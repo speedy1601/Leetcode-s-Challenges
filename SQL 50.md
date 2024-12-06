@@ -49,7 +49,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   44  | [Fix Names In A Table](https://leetcode.com/problems/fix-names-in-a-table/description/) | [Solution](https://leetcode.com/problems/fix-names-in-a-table/solutions/6092793/pandas-polars-postgresql) | `str.capitalize()` | `str.slice(), str.upper() and lower()` | `LEFT(), RIGHT(), \|\|`|
 |   45  | [Patients With A Condition](https://leetcode.com/problems/patients-with-a-condition/description/) | [Solution](https://leetcode.com/problems/patients-with-a-condition/solutions/6094195/pandas-polars-postgresql) | `str.contains()` | `str.contains()` | `~` (ANY regex expression checking) |
 |   46  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/) | [Solution](https://leetcode.com/problems/delete-duplicate-emails/solutions/6101894/pandas-polars-postgresql) | | | `DELETE` |
-|   47   | []() | []() | | | |
+|   47  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/) | [Solution](https://leetcode.com/problems/second-highest-salary/solutions/6119942/pandas-polars-postgresql) | | | `LEAST()` |
 |   48   | []() | []() | | | |
 |   49   | []() | []() | | | |
 |   50  | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/description/) | [Solution](https://leetcode.com/problems/find-users-with-valid-e-mails/solutions/6096626/pandas-polars-postgresql) | `str.contains(), str.fullmatch()` | `str.contains()` | `SIMILAR TO, ~` |
@@ -87,3 +87,4 @@ There are some questions helped me to strong the base :
 | 45 | `VERY IMPORTANT` How `\b` works as Word Boundary in Regex. r`\bDIAB1` matches with the value `+DIAB1`, Why? And when \b should not be used even if we've to deal with `word`. The difference between `(^| )` and `[^ ]` |
 | 50 | `VERY IMPORTANT` How to `check FULL STRING using REGEX FROM THE VERY FIRST CHARACTER TO END` i.e. if the first regex condition doesn't match, return False |
 | 46 | `VERY IMPORTANT` How to use `DELETE` and especially `DELETE USING` rows by MODIFYING the Main Table in place. In `POSTGRESQL` to perform ANY kind of JOIN, we must have a COMMON TABLE EXPRESSION like p.id = q.id, then you can put ANYYY conditions |
+| 47 | `VERY IMPORTANT` `Find Nth Largest(/smallest) value`, if exactly Nth Largest doesn't exist, return NULL. A little history of `PANDAS nlargest()` and `POLARS top_k()`. In `Pandas` `iloc[1]` throw error if 2nd Value doesn't exist, but `iloc[1:]` doesn't throw error and returns empty column |
