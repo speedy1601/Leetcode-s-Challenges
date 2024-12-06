@@ -50,8 +50,8 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   45  | [Patients With A Condition](https://leetcode.com/problems/patients-with-a-condition/description/) | [Solution](https://leetcode.com/problems/patients-with-a-condition/solutions/6094195/pandas-polars-postgresql) | `str.contains()` | `str.contains()` | `~` (ANY regex expression checking) |
 |   46  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/) | [Solution](https://leetcode.com/problems/delete-duplicate-emails/solutions/6101894/pandas-polars-postgresql) | | | `DELETE` |
 |   47  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/) | [Solution](https://leetcode.com/problems/second-highest-salary/solutions/6119942/pandas-polars-postgresql) | | | `LEAST()` |
-|   48   | []() | []() | | | |
-|   49   | []() | []() | | | |
+|   48  | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/) | [Solution](https://leetcode.com/problems/group-sold-products-by-the-date/solutions/6121068/pandas-polars-postgresql) | `str.cat()` | `str.concat()` | `STRING_AGG()` |
+|   49  | []() | []() | | | |
 |   50  | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/description/) | [Solution](https://leetcode.com/problems/find-users-with-valid-e-mails/solutions/6096626/pandas-polars-postgresql) | `str.contains(), str.fullmatch()` | `str.contains()` | `SIMILAR TO, ~` |
 
 There are some questions helped me to strong the base :
