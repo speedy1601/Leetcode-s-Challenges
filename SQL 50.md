@@ -51,7 +51,7 @@ I solved each question using Pandas, Polars, PostgreSQL.
 |   46  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/) | [Solution](https://leetcode.com/problems/delete-duplicate-emails/solutions/6101894/pandas-polars-postgresql) | | | `DELETE` |
 |   47  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/) | [Solution](https://leetcode.com/problems/second-highest-salary/solutions/6119942/pandas-polars-postgresql) | | | `LEAST()` |
 |   48  | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/) | [Solution](https://leetcode.com/problems/group-sold-products-by-the-date/solutions/6121068/pandas-polars-postgresql) | `str.cat()` | `str.concat()` | `STRING_AGG()` |
-|   49  | []() | []() | | | |
+|   49  | [List The Products Ordered In A Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/) | [Solution](https://leetcode.com/problems/list-the-products-ordered-in-a-period/solutions/6123052/pandas-polars-postgresql) | `dt.strftime("%B %Y")` | `dt.strftime("%B %Y")` | `TO_CHAR(column, 'FMMonth YYYY')` |
 |   50  | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/description/) | [Solution](https://leetcode.com/problems/find-users-with-valid-e-mails/solutions/6096626/pandas-polars-postgresql) | `str.contains(), str.fullmatch()` | `str.contains()` | `SIMILAR TO, ~` |
 
 There are some questions helped me to strong the base :
@@ -88,3 +88,4 @@ There are some questions helped me to strong the base :
 | 50 | `VERY IMPORTANT` How to `check FULL STRING using REGEX FROM THE VERY FIRST CHARACTER TO END` i.e. if the first regex condition doesn't match, return False |
 | 46 | `VERY IMPORTANT` How to use `DELETE` and especially `DELETE USING` rows by MODIFYING the Main Table in place. In `POSTGRESQL` to perform ANY kind of JOIN, we must have a COMMON TABLE EXPRESSION like p.id = q.id, then you can put ANYYY conditions |
 | 47 | `VERY IMPORTANT` `Find Nth Largest(/smallest) value`, if exactly Nth Largest doesn't exist, return NULL. Very Important history and CAUTION of `PANDAS nlargest()` and `POLARS top_k()`. In `Pandas` `iloc[1]` throw error if 2nd Value doesn't exist, but `iloc[1:]` doesn't throw error and returns empty column |
+| 50 | `VERY IMPORTANT` Instead of `WHERE TO_CHAR(order_date, 'FMMonth YYYY') == 'February 2020'`, just write `WHERE order_date > '2020-01-31' AND order_date < '2020-03-01'` which avoids creating another column. In `POSTGRQSQL` if its possible to query without CTE and `GROUP BY` with LESSER KEYS, DO IT, postgreSQL will optimize it as needed. |
